@@ -1,0 +1,95 @@
+/* added color variables */
+:root {
+    --primary: #1f72de;
+    --secondary: #e6e1e2;
+    --boldcolor: #c40c27;
+
+}
+
+
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1f72de;
+    background-color: #e6e1e2;
+}
+
+header {
+    background-color:#e6e1e2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+header div {
+    box-shadow: 3px 3px 5px;
+}
+
+header h1 {
+    color: #c40c27;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #e6e1e2;
+    padding: 10px;
+    border: #c40c27;
+}
+
+header a {
+    text-decoration: none;
+    color: #c40c27;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav {
+    margin: 20px;
+}
+
+header nav ul li a {
+    padding: 8px;
+    font-size: 28px;
+    margin: 20px 20px 0 0;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    background: #1f72de;
+    color: #e6e1e2;
+    border-radius: 15px;
+}
+
+.hero {
+    background-image: url(../McStay-Portfolio/images/generic-grunge.jpg);
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center
+}
+
+.hero img{
+    height: 400px;
+}
+
+.hero .quote {
+    font-size: 35px;
+    display: flex;
+    justify-content: end;
+    text-align: right;
+    color: #e6e1e2;
+}
+
+.hero .quote #quote-text {
+    font-size: 48px;
+}
+
+.title {
+    bo;
+
+}
